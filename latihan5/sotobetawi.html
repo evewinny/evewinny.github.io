@@ -1,11 +1,37 @@
-<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Soto Betawi</title>
+   <link rel="stylesheet" href="css/materialize.min.css" media="screen,projection">
+   <link rel="stylesheet" href="css/style.css" media="screen,projection">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Soto Betawi</title>
   </head>
+
   <body>
-    <h2>Soto Betawi</h2> <hr>
+    <nav class="bluechef" role="navigation">
+      <div class="nav-wrapper container">
+        <a href="index.html" class="brand-logo">Resep Kuliner Nusantara</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="about.html">Tentang Website</a></li>
+          <li><a href="#">Tentang STMIK KHARISMA</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="sidenav">
+          <li><a href="about.html">Tentang Website</a></li>
+          <li><a href="#">Tentang STMIK KHARISMA</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i
+          class="material-icons">menu</i></a>
+      </div>
+    </nav>
+    <div class="container">
+      <h2 class="bluechef-text"> Soto Betawi </h2>
+      <img src="img/batagor.jpg" class="gambar-resep" alt="">
+    </div>
+
+  <body>
+
     <h3>Bahan :</h3>
     <ol>
       <li>500 gram daging sapi</li>
@@ -36,6 +62,21 @@
       <li>Tambahkan santan dan aduk-aduk sesering mungkin. Masak hingga kuah kaldu tadi menyusut dan daging menjadi empuk</li>
     </ol>
 
-    <h2><a href="index.html"> Kembali </a></h2>
+    <nav class="bluechef">
+      <div class="nav-wrapper container">
+        <ul class="right">
+          <li> <a href="#top">Kembali ke atas </a> </li>
+          <li> <a href="index.html">Daftar Resep </a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/init.js"></script>
+
+    <div class="sidenav-overlay"></div>
+    <div class="drag-target"></div>
+
   </body>
 </html>
