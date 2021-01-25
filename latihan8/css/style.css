@@ -1,0 +1,61 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.warnaku {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffb76b+0,ffa73d+21,ffa73d+21,ff7c00+25,ff7c00+25,ffa73d+29,ffa73d+29,ff7c00+36,ffa73d+50,ffa73d+59,ffa73d+63,ff7c00+65,ff7c00+65,ff7c00+75,ff7c00+81,ff7f04+100 */
+background: #ffb76b; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #ffb76b 0%, #ffa73d 21%, #ffa73d 21%, #ff7c00 25%, #ff7c00 25%, #ffa73d 29%, #ffa73d 29%, #ff7c00 36%, #ffa73d 50%, #ffa73d 59%, #ffa73d 63%, #ff7c00 65%, #ff7c00 65%, #ff7c00 75%, #ff7c00 81%, #ff7f04 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #ffb76b 0%,#ffa73d 21%,#ffa73d 21%,#ff7c00 25%,#ff7c00 25%,#ffa73d 29%,#ffa73d 29%,#ff7c00 36%,#ffa73d 50%,#ffa73d 59%,#ffa73d 63%,#ff7c00 65%,#ff7c00 65%,#ff7c00 75%,#ff7c00 81%,#ff7f04 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #ffb76b 0%,#ffa73d 21%,#ffa73d 21%,#ff7c00 25%,#ff7c00 25%,#ffa73d 29%,#ffa73d 29%,#ff7c00 36%,#ffa73d 50%,#ffa73d 59%,#ffa73d 63%,#ff7c00 65%,#ff7c00 65%,#ff7c00 75%,#ff7c00 81%,#ff7f04 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ff7f04',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.warnaku-text {
+  color: #ff662e;
+  text-align: center;
+}
+
+.collection a.collection-item {
+    color: #0000bf;
+}
+
+.collection .collection-item {
+    background-color: #E0E0E0;
+    line-height: 1.5rem;
+    padding: 10px 20px;
+    margin: 0;
+    border-bottom: 1px solid #fff;
+}
+.collection a.collection-item:not(.active):hover {
+  background-color: #e8d6ff;
+
+p {
+  text-align: justify;
+}
+
+.profil {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  position:
+}
+
+.gambar-resep {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+}
