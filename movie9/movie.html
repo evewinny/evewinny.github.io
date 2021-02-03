@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.min.css" media="screen,projection">
+    <link rel="stylesheet" href="css/style.css" media="screen,projection">
+
+    <title>PWeb Movie</title>
+  </head>
+  <body>
+    <nav class="black" role="navigation">
+      <div class="nav-wrapper container">
+        <a href="/movie9" class="brand-logo white-text">PWEB Movie</a>
+        <ul class="right hide-on-med-and-down topnav">
+          <li><a href="index.html#playing" class="white-text">Now Playing</a></li>
+          <li><a href="index.html#upcoming" class="white-text">Up Coming</a></li>
+          <li><a href="index.html#popular" class="white-text">Popular</a></li>
+          <li><a href="index.html#toprated" class="white-text">Top Rated</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="sidenav">
+          <li><a href="index.html#playing">Now Playing</a></li>
+          <li><a href="index.html#upcoming">Up Coming</a></li>
+          <li><a href="index.html#popular">Popular</a></li>
+          <li><a href="index.html#toprated">Top Rated</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+
+    <div id="index-banner" class="parallax-container">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <h1 class="header center white-text">What is Your Movie</h1>
+        </div>
+      </div>
+      <div class="parallax">
+        <img src="img/movie_1080.jpg" srcset="img/movie_480.jpg 480w,img/movie_720.jpg 720w,img/movie_1080.jpg 1080w" size="100vw" alt="movie" style="transform: translate3d(-50%, 0px, 0px);opacity: 1;">
+      </div>
+    </div>
+
+    <div class="container">
+      <h4 id="section_title">Movie Detail</h4>
+      <div class="row">
+        <div id="movie_detail">
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/init.js"></script>
+    <script type="text/javascript" src="js/api.js"></script>
+    <script type="text/javascript" src="js/tmdb.js"></script>
+
+      <script type="text/javascript">
+      document.addEventListener("DOMContentLoaded", function() {
+      var urlParams = new URLSearchParams(window.location.search);
+      var id = urlParams.get("id");
+      getMovie( id );
+      });
+      </script>
+  </body>
+</html>
